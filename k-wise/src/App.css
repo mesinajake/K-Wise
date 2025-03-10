@@ -1,0 +1,167 @@
+.App {
+  background: linear-gradient(to top, #00E083, #1E1E1E);
+}
+
+.Store-name{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Store-name h1{
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 800px;
+  line-height: normal;
+  letter-spacing: -5px;
+  color: #00E083;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.App .Store-name p{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: white;
+  margin-top: 0;
+}
+
+.App .Store-name .start-up button {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 100px;
+  color: white;
+  text-decoration: none;  
+  border: none;           
+  background: none;        
+  outline: none;
+  cursor: pointer; 
+  transition: all 0.2s ease-in-out;    
+} 
+
+.App .Store-name .start-up button:active {
+  color: #00E083; 
+  transform: scale(0.9); 
+}
+
+
+@media (max-width: 590px) {
+  .App .Store-name img {
+    height: 318px;
+    width: 318px
+  }
+  .Store-name h1 {
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: normal;
+    letter-spacing: -3px;
+    color: #00E083;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  .App .Store-name p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: white;
+    margin-top: 0;
+  }
+  .App .Store-name .start-up button {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;  
+    border: none;           
+    background: none;        
+    outline: none;
+    cursor: pointer; 
+    transition: all 0.2s ease-in-out;   
+  }
+}
+
+@media (max-width: 400px) {
+  .App .Store-name img {
+    height: 300px;
+    width: 300px
+  }
+  .Store-name h1 {
+    font-size: 80px;
+  }
+  .App .Store-name p {
+    font-size: 12px;
+  }
+  .App .Store-name .start-up button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .App .Store-name img {
+    height: 280px;
+    width: 280px
+  }
+  .Store-name h1 {
+    font-size: 70px;
+  }
+  .App .Store-name p {
+    font-size: 9px;
+  }
+  .App .Store-name .start-up button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .App .Store-name img {
+    height: 200px;
+    width: 200px
+  }
+  .Store-name h1 {
+    font-size: 60px;
+  }
+  .App .Store-name p {
+    font-size: 6px;
+  }
+  .App .Store-name .start-up button {
+    font-size: 11px;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
