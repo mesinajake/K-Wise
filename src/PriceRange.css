@@ -1,0 +1,98 @@
+  /* Container */
+  .price-range-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #03644D;
+    color: white;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    gap: 90px;
+    justify-items: left;
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 70px;
+
+  }
+  
+  /* Logo */
+  .logo {
+    margin: 0;
+  }
+  .logo-image {
+    width: 128px;
+    height: 128px;
+  }
+  
+  /* Title */
+  .price-title{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  /* Price Options */
+  .price-options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    margin-bottom: 953px;
+  }
+  
+  .mid-level-container {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .price-option {
+    background-color: #034C3B;
+    height: 224px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .starter-option {
+    width: 952px;
+  }
+  
+  
+  .mid-entry-option,
+  .mid-tier-option {
+    width: 460px;
+  }
+
+  .high-mid-tier-option {
+    width: 952px;
+  }
+  
+  .price-option:hover {
+    transform: scale(1.05);
+  }
+  
+  .price-option h2 {
+    color: #fff;
+    margin: 0;
+    margin-top: 78px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  
+  .price-option p {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.5;
+  }

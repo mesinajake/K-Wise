@@ -1,0 +1,139 @@
+/* 🔹 Container */
+.product-list-container {
+  background-color: #03644D; /* Dark green background */
+  color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 🔹 Header */
+.build-header {
+  display: flex;
+  gap: 90px;
+  justify-items: left;
+  width: 1032px;
+  margin-left: 48px;
+  margin-top: 41px;
+  margin-bottom: 70px;
+}
+
+.build-logo {
+  width: 128px;
+  height: 128px;
+}
+
+.category-name h1{
+  margin: 0;
+  margin-bottom: 50px;
+  margin-left: 41px;
+  width: 1032px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.product-category-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* 🔹 Grid Layout */
+.product-build-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 373px); /* Exactly 2 columns, each 373px */
+  gap: 70px;
+  justify-content: center;
+  width: auto;
+}
+
+/* 🔹 Product Card */
+.product-build-card {
+  width: 373px;
+  height: 385px;
+  padding: 14px 18px;
+  justify-items: center;
+  text-align: center;
+  position: relative;
+  border: 5px solid #034C3B;
+  background: #03644D;
+  box-shadow: 0px 3px 30px 0px rgba(3, 76, 59, 0.50);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.product-build-card:hover {
+  transform: scale(1.05);
+}
+
+/* 🔹 Image Container */
+/* 🔹 Image Container */
+.image-container {
+  width: 233px;
+  height: 233px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents overflow */
+  position: relative;
+}
+
+/* 🔹 Product Image */
+.product-build-image {
+  width: 233px;
+  height: 233px;
+  aspect-ratio: 159.23/233.00;
+  object-fit: cover; /* Ensure the image is not distorted */
+}
+
+
+/* 🔹 Purpose Tags */
+.purpose-build-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+.purpose-build-tag {
+  padding: 4px 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* 🔹 Product Info */
+.product-build-info {
+  margin-top: 10px;
+  margin-right: 70px;
+  justify-items: left;
+}
+
+.product-build-name {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+}
+
+.product-build-price {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  opacity: 0.5;
+  color: white;
+}
+
+/* 🔹 No Products Found */
+.no-products-message {
+  text-align: center;
+  font-size: 18px;
+  color: #ffcc00; /* Yellow text */
+  margin-top: 20px;
+}
+
+/* 🔹 Responsive Fixes */
+

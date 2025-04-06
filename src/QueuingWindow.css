@@ -1,0 +1,90 @@
+.queuing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #002018;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 128px;
+    height: 128px;
+}
+
+.queuing-title {
+    width: 960px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.highlight {
+    color: #00ff80;
+}
+
+.queue-input {
+    width: 568px;
+    height: 64px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Keypad grid with four columns */
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    margin: 20px 0;
+}
+
+.keypad button {
+    width: 142px;
+    height: 142px;
+    font-size: 18px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+/* DEL button spans the first and second row in the fourth column */
+.keypad .del-button {
+    width: 142px;
+    height: 284px;
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    background-color: #ff5555;
+    color: white;
+    font-weight: bold;
+}
+
+/* Zero button is placed in the fourth column, third row */
+.zero-button {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.enter-button-queue,
+.back-button-queue {
+    width: 363px;
+    height: 60px;
+    padding: 12px 32px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #00ff80;
+    border: none;
+    cursor: pointer;
+}
+.enter-button-queue {
+    margin-top: 40px;
+}
+
+.back-button-queue {
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid #00E083;
+    color: white;
+}

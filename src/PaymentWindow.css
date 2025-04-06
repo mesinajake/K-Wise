@@ -1,0 +1,67 @@
+/* Main container */
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #002018; /* Dark green background */
+    color: white;
+  }
+  
+  /* Logo */  
+  .logo {
+    width: 128px;
+    height: 128px;
+  }
+  
+  /* Title */
+  .payment-title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  
+  /* Payment options grid */
+  .payment-options {
+    display: flex;
+    align-items: column;
+    gap: 16px;
+    margin-bottom: 50px;
+  }
+  
+  /* Payment buttons */
+  .payment-button {
+    width: 224px;
+    height: 282px;
+    background-color: #00E083; /* Bright green */
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .payment-button:hover {
+    background-color: #00cc66; /* Darker green on hover */
+  }
+  
+  /* Back button */
+  .back-button-payment {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    background: transparent;
+    width: 279px;
+    height: 60px;
+    padding: 12px 32px;
+    border: 2px solid #00E083;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  

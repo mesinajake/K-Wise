@@ -1,0 +1,50 @@
+.pc-build-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #002018; /* Dark green background */
+  }
+  
+  .build-logo {
+    width: 128px;
+    height: 128px; 
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  
+  .build-title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 100px;
+  }
+  
+  .build-options {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .build-option {
+    width: 469px;
+    height: 282px;
+    background-color: #00ff88;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .build-option:hover {
+    transform: scale(1.05);
+  }
+  

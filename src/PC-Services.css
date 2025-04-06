@@ -1,0 +1,154 @@
+/* Container */
+.pc-parts-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #002018;
+    overflow: hidden; /* Prevents unwanted body scrolling */
+  }
+  
+    
+  /* Sidebar */
+  .sidebar {
+    width: 15%;
+    height: 100%;
+    padding: 10px;
+    background-color: #00e083;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+    .logo {
+      margin-top: 16px;
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 32px;
+    }
+    
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .menu-item {
+      width: 80px;
+      height: 40px;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .menu-item1 {
+      width: 80px;
+      height: 40px;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 60px;
+    }
+  
+  
+  
+  
+    
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: calc(100vh - 100px); /* Leaves space for the bottom section */
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Scrollable Container - Makes Carousel Visible */
+  .scroll-container {
+    flex: 1;
+    width: 90%;
+    max-height: 100%;
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding-right: 10px;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #00E083 #012a22;
+  }
+  
+  /* Custom Scrollbar */
+  .scroll-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: #012a22;
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #00E083;
+    border-radius: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #00c070;
+  }
+  
+  /* Grid Layout - Vertical */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 Columns */
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+  
+  /* Grid Items */
+  .grid-item {
+    width: 200px;
+    height: 200px;
+    background-color: #064e3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Bottom Section - Stays Fixed */
+  .bottom-section {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 15px;
+    height: 80px;
+    background-color: #001510;
+  }
+  
+  /* Bottom Buttons */
+  .bottom-section .input-box {
+    text-align: center;
+    width: 256px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+    
+    
+    

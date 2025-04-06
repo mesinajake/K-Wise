@@ -1,0 +1,111 @@
+/* Background Styling */
+.background {
+  background-color: #012a22;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.main-box .component {
+  width: 300px;
+  height: 203px;
+  object-fit: contain; /* Prevents stretching */
+}
+
+/* Main Box */
+.main-box {
+  width: 100%;
+  max-width: 700px;
+  height: 400px; /* Fixed height to prevent movement */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.main-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+
+.subtext {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  color: #AFAFAF;
+}
+
+/* Start Button */
+.start-btn {
+  background-color: #00E083;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  width: 224px;
+  height: 64px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Bottom Boxes - Adjusted to perfectly fit main-box width */
+.bottom-boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+
+.box {
+  flex: 1;
+  height: 224px;
+  background-color: #00E083;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white; /* Default white border */
+  cursor: pointer;
+}
+
+/* Ensure images do not exceed the box */
+.box img {
+  max-width: 70%; 
+  max-height: 70%;
+  object-fit: contain; /* Ensures the image scales properly */
+}
+
+/* Active Box */
+.box.active {
+  background-color: #00E083;
+  opacity: 1;
+  border: 5px solid white; /* Highlighted white border */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* Glow effect */
+}
+
+.box.inactive {
+  opacity: 0.5;
+  border: none; /* Removes border for unselected boxes */
+}
+
+/* Remove extra margin for first and last boxes */
+.box:first-child {
+  margin-left: 0;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
